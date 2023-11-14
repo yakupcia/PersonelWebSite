@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Link, useLocation } from 'react-router-dom'
 import '../styles/Navbar.css'
@@ -12,23 +12,29 @@ function Navbar() {
   const Location = useLocation();
   useEffect(() => {
     setExpand(false);
-  },[Location]);
+  }, [Location]);
 
-  function buttonHandle(){
-    setExpand((prev)  => !prev);
+  function buttonHandle() {
+    setExpand((prev) => !prev);
   }
   return (
-    <nav className='navbar' id={expand ? "open" : "close" }>
+    <nav className='navbar' id={expand ? "open" : "close"}>
       <div className='toggleButton'>
         <button onClick={buttonHandle}>
           <ReorderIcon />
         </button>
       </div>
       <div className='links'>
-        <Link to="/">Home</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <div className='title'>
+          <Link to="/">
+              YAKUP KOK
+          </Link>
+        </div>
+        <div className='RightTitle'>
+          <Link to="/blog">Blog</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
       </div>
     </nav>
   )

@@ -1,5 +1,7 @@
- import React from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+ 
+import './styles/FirstPage.css'
 
 //pages
 import Home from './pages/Home';
@@ -15,6 +17,7 @@ import './App.css'
 
 function App() {
   return (
+    <div className='Container'>
     <Router>
       <Navbar />
       <Routes>
@@ -25,6 +28,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
   );
 }
 
