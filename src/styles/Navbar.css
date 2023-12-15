@@ -10,9 +10,9 @@
   display: flex;
   color: black;
   font-weight: bold;
+  justify-content: space-between;
 }
 .title{
-  margin-right: 900px;
   margin-top: 2%;
   margin-left: 12px;
 }

@@ -11,8 +11,9 @@
   .innerFooter {
     height: 100px;
     width: 100%;
-    display: flex;
     flex-direction: row;
+    display: flex;
+    justify-content: space-between;
   }
   .footerLinkContainer {
     color: black;
@@ -29,7 +30,8 @@
   }
   .footerWriterContainer {
     align-items: right;
-    margin-left: 950px;
+    margin-right: 1%;
+    /* margin-left: 950px; */
   }
   
   .socialMedia svg {
