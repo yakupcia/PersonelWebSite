@@ -31,7 +31,7 @@ function Navbar() {
           </Link>
         </div>
         <div className='RightTitle'>
-          <Link to="/blog">Blog</Link>
+          <Link to="/home">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
         </div>
