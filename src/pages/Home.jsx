@@ -2,6 +2,10 @@ import React from 'react';
 import '../styles/Home.css'
 import myImage from '../photos/IMG_7358.jpg'
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+
+import { FaArrowRight } from "react-icons/fa";
+
 
 
 function Home() {
@@ -11,16 +15,22 @@ function Home() {
         <title>Yakup KOK</title>
         <meta name="description" content='Home - Yakup KOK'/>
       </Helmet>
-      <div className='image'>
-      <img src={myImage} alt="yakup kok" style={{borderRadius: 200, width:400, height:400, marginTop: 150, marginBottom: 150, marginRight: 700}}/>
+      <div>
+      <img src={myImage} alt="yakup kok" className="home_image" />
       </div> 
       <div className='preview'>
-        <h1>Hello, I'm Yakup KOK!</h1>
+        <h1> <span>I'm Yakup KOK!</span></h1>
         <p>I'm a focused on creating creative and innovative solutions</p>
         <p> I'm delighted to have you here!</p>
+        <Link to='/about' className='button' >
+          More About Me <span className='button_icon'>
+            <FaArrowRight />
+          </span>
+        </Link>
       </div>
     </div>
   )
 }
 
 export default Home
+

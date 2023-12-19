@@ -1,27 +1,44 @@
+
 .home{
 background-color: #BDBDBD;
 flex-direction: row;
 display: flex;
-
+padding: 75px;
+align-items: center;
 }
 .preview{
-  background-color: red;
+  /* background-color: red; */
   text-align: center;
-  border-width: 10px;
-}
-.image{
+  margin-left: 220px;
   
 }
-
-
-
+.home_image{
+  height: 550px;
+  object-fit: cover;
+  border-radius: 30px;
+  /* box-shadow: 0 0 8px hsla(hue, saturation, lightness, alpha) */
+  margin-left: 70px;
+}
+.button{
+  display: inline-block;
+  color:black;
+  padding: 10px 50px 10px 50px;
+  border-radius: 35px;
+  font-family: 'Oswald', sans-serif;
+  border: 1px solid;
+  position: relative;
+  font-size: large;
+  font-weight: 700;
+}
+.button_icon {
+  position: absolute;
+  inset-block: -2px;
+  text-align: center;
+  line-height: 60px;
+ }
 
 
   @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  
     .home .prompt {
       margin-top: 10px;
       font-size: 20px;
@@ -36,7 +53,4 @@ display: flex;
       padding: 0;
     }
   
-    .skills h2 {
-      font-size: 30px;
-    }
   }
