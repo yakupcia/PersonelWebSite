@@ -9,7 +9,7 @@ function Home() {
     <div className='home'>
       <Helmet>
         <title>Yakup KOK</title>
-        <meta name="description" content='Yakup KOK'/>
+        <meta name="description" content='Home - Yakup KOK'/>
       </Helmet>
       <div className='image'>
       <img src={myImage} alt="yakup kok" style={{borderRadius: 200, width:400, height:400, marginTop: 150, marginBottom: 150, marginRight: 700}}/>

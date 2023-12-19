@@ -26,7 +26,7 @@ function Navbar() {
       </div>
       <div className='links'>
         <div className='title'>
-          <Link to="/">
+          <Link to="/home">
               YAKUP KOK
           </Link>
         </div>
