@@ -48,9 +48,24 @@ align-items: center;
   
     .home {
       text-align: center;
+      background-color: #BDBDBD;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
     }
     .list {
       padding: 0;
+    }
+    .home_image{
+      height: 300px;
+      width: 300px;
+      margin-left: 10px;
+    }
+    .preview{
+      /* background-color: red; */
+      text-align: center;
+      margin-left: 22px;
+      
     }
   
   }
