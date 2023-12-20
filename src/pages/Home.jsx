@@ -10,7 +10,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className='home'>
+    <section className='home'>
       <Helmet>
         <title>Yakup KOK</title>
         <meta name="description" content='Home - Yakup KOK'/>
@@ -23,12 +23,12 @@ function Home() {
         <p>I'm a focused on creating creative and innovative solutions</p>
         <p> I'm delighted to have you here!</p>
         <Link to='/about' className='button' >
-          More About Me <span className='button_icon'>
+          More About Me <span className='nav_icon'>
             <FaArrowRight />
           </span>
         </Link>
       </div>
-    </div>
+    </section>
   )
 }
 
