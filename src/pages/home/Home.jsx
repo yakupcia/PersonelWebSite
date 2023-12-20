@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Home.css'
-import myImage from '../photos/IMG_7358.jpg'
+import '../home/Home.css'
+import myImage from '../../photos/IMG_7358.jpg'
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 

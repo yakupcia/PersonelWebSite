@@ -74,6 +74,15 @@
   #close a {
     display: none;
   }
+  .RightTitle{
+    flex-direction: column;
+    display: flex;
+    padding-top: 50px;
+  }
+  .title{
+    text-align: center;
+    margin-left: 45px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -91,5 +100,9 @@
 
   #open .links {
     flex-direction: row;
+  }
+  .RightTitle{
+    flex-direction: row;
+
   }
 }
