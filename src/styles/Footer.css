@@ -49,14 +49,21 @@
   
   @media only screen and (max-width: 600px) {
     .footer svg {
-      background: #79AC78;
       flex-direction: row;
   
-    }
-  }
-  .socialMedia svg {
-    color: black;
-    font-weight: bold;
-  }
   
+    }
+    .socialMedia svg {
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+  
+    }
+    .footerWriterContainer {
+      align-items: right;
+      margin-right: 1%;
+      /* margin-left: 950px; */
+    }
+
+  }
   
