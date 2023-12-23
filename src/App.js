@@ -24,9 +24,9 @@ function App() {
       <AnimCursor />
       <Navbar />
       <Routes>
-        <Route path="/home" exact element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route exact path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

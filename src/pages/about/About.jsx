@@ -12,7 +12,7 @@ function About() {
       <h2>Services:</h2>
       <li> Mobile App Development</li>
       <li>Web Development</li>
-      <h3>Skils: </h3>
+      <h3>Skills: </h3>
       <li>JavaScript</li>
       <li>React</li>
       <li>React Native</li>
