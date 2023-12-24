@@ -1,10 +1,12 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import CallIcon from '@mui/icons-material/Call';
-import EmailIcon from '@mui/icons-material/Email';
+import { IoMdMail } from "react-icons/io";
 
 import { IoIosSend } from "react-icons/io";
+
+// css
+import '../contact/Contact.css'
 
 
 function Contact() {
@@ -16,23 +18,24 @@ function Contact() {
       <section className="contact">
         <h2>Get In <span>Touch</span> </h2>
 
-        <div className='contact_info'>
-          <div>
-            <EmailIcon />
+        <div className='contact_container'>
 
-          <span className="info_title">Mail Me</span>
-          <span className="info_disc">yakupcia@gmail.com</span>
-          </div>
+            <div className='left_inner_container'>  
+             <IoMdMail style={{fontSize: 30 }}  /> 
+            <span className="info_title"> Mail Me:  </span>
 
-          <div>
-            <CallIcon />
+            
+            <h4 className="info_disc">yakupcia@gmail.com</h4>
 
-          <span className="info_title">Call Me</span>
-          <span className="info_disc">+90 555 024 39 10</span>
-          </div>
+            <div className='contact_message'>Any collaboration proposals, project suggestions, or questions can be submitted using the contact form on the right, or you can reach out to me directly via email.</div>
+
+            </div>
 
           <form className='contact_form'>
           <div className='form_input-group'>
+            
+            <div className='contact_subject_mail_name'>
+
             <div className='form_input-div'>
               <input type="text" placeholder='Your Name' className='form_kontrol'/>
             </div>
@@ -41,12 +44,10 @@ function Contact() {
               <input type="email" placeholder='Your Email' className='form_kontrol'/>
             </div>
 
-            <div className='form_input-div'>
-              <input type="text" placeholder='Your Subject' className='form_kontrol'/>
             </div>
 
             <div className='form_input-div'>
-             <textarea name="" id="" cols="30" rows="10" placeholder='Your Message' className='form_input textarea'></textarea>
+             <textarea name="" id="" cols="55" rows="10" placeholder='Your Message' className='textarea'></textarea>
             </div>
 
             <button className='Button'> 

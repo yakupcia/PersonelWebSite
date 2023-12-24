@@ -1,3 +1,148 @@
-.contact_info{
-    
+.contact {
+    grid-template-columns: 4fr 8fr;
+    text-align: center;
+
+
+}
+
+.contact_container {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    height: 600px;
+}
+
+.contact_subject_mail_name{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_inner_container{
+    margin-top: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-block: 100px;
+    height: 200px;
+    width: 400px;   
+    font-size: 20px;
+}
+
+.form_input-group{
+    margin-top: 100px;
+}
+
+.contact_message{
+    margin-top: 30px;
+    text-align: left;
+    display: flex;
+    font-size: 20px;
+}
+
+.info_title{
+    padding-block-end: 1px;
+    margin-left: 5px;
+}
+
+.form_input-group{
+}
+
+.form_input-div{
+    margin-bottom: 30px;
+    font-size: 1px;
+    margin-right: 20px; 
+     
+}
+.form_kontrol{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 100½;
+    padding: 12px 24px;
+    border-radius: 7px;
+    font-size: 20px;
+
+}
+
+.Button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.textarea{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    width: 487px;
+    border-radius: 12px;
+    resize: none;
+
+}
+
+
+
+   @media only screen and (max-width: 600px){
+    .contact {
+    grid-template-columns: 4fr 8fr;
+    text-align: center;
+
+    }
+    .contact_container{
+        flex-direction: column;
+        display: flex;
+    }
+   .contact_subject_mail_name{
+    flex-direction: column;
+    margin: 0px;
+    padding: 4px;
+   }
+   .left_inner_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+   }
+   .contact_message{
+    display: flex;
+    flex-direction: left;
+    font-size: 20px;
+
+   }
+   .textarea{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    resize: none;
+    width: 300px;
+    height: 100px;
+    }
+    .form_input-div{
+        margin-bottom: 10px;
+        font-size: 1px;
+         
+    }
+    .form_kontrol{
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        width: 100½;
+        padding: 12px 24px;
+        border-radius: 7px;
+        font-size: 20px;    
+    }
+    .form_input-group{
+        text-align: center;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+
 }

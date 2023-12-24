@@ -13,6 +13,10 @@ h1{
 p{
     font-size: 20px;
 }
+h4{
+    font-style: bold;
+    margin-top: 4px;
+}
 
 @media only screen and (max-width: 600px) {
 
