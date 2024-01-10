@@ -65,12 +65,12 @@ function Footer() {
       </div>
       <div className='innerFooter'>
         <div className='footerLinkContainer'>
-        <Link to="/blog">Home</Link>
-        <Link to="/projects">About</Link>
+        <Link to="/home">Home</Link>
+        <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         </div>
         <div className='footerWriterContainer'>
-          <p className='ykp'> © 2023 Yakup KOK </p>
+          <p> © 2023 Yakup KOK </p>
         </div>
       </div>
     </div>

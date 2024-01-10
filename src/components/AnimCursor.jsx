@@ -3,7 +3,7 @@ import AnimatedCursor from "react-animated-cursor"
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="AnimCursor">
       <AnimatedCursor 
         color='0,0,0'
 

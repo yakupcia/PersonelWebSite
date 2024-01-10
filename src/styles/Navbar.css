@@ -61,29 +61,47 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  
+  #close a {
+    display: none;
+  }
+
+  .RightTitle{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .title{
+    text-align: center;
+    background-color: tomato;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .toggleButton svg {
+    font-size: 50px;
+  }
+  .toggleButton button {
+    margin-right: 0px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+}
+
 @media only screen and (max-width: 900px) {
   .navbar a {
     width: 70px;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .toggleButton {
-    display: flex;
-  }
-  #close a {
-    display: none;
-  }
-  .RightTitle{
-    flex-direction: column;
-    display: flex;
-    padding-top: 50px;
-  }
-  .title{
-    text-align: center;
-    margin-left: 45px;
-  }
-}
 
 @media only screen and (min-width: 600px) {
   .toggleButton {
@@ -106,3 +124,4 @@
 
   }
 }
+
