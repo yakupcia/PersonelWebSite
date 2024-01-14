@@ -17,6 +17,7 @@ function About() {
       <li>React</li>
       <li>React Native</li>
       <li>Figma</li>
+      <li>C#</li>
       <li>.Net</li>
       <li>Java</li>
       <li>MySQL</li>
