@@ -25,7 +25,9 @@ function Contact() {
             <span className="info_title"> Mail Me:  </span>
 
             
-            <h4 className="info_disc">yakupcia@gmail.com</h4>
+      
+            <button className='info_disc' onClick={() => window.location = 'mailto:yakupcia@gmail.com'}>yakupcia@gmail.com</button>
+
 
             <div className='contact_message'>Any collaboration proposals, project suggestions, or questions can be submitted using the contact form on the right, or you can reach out to me directly via email.</div>
 

@@ -1,8 +1,6 @@
 .contact {
     grid-template-columns: 4fr 8fr;
     text-align: center;
-
-
 }
 
 .contact_container {
@@ -43,7 +41,15 @@
     padding-block-end: 1px;
     margin-left: 5px;
 }
+.info_disc{
+    /* margin-top: 4px; */
+    font-size: 20px;
+    color: black;
+    padding: 4px;
+    outline: 'none';
 
+}
+    
 
 
 .form_input-div{
@@ -70,6 +76,7 @@
     padding: 12px 24px;
     border-radius: 10px;
     font-size: 20px;
+    /* border-radius: right; */
 }
 
 .textarea{
@@ -152,6 +159,13 @@
         margin: 10px;
         margin-top: 50px;
     }
-   
+   .info_disc{
+    font-size: 20px;
+    padding: 4px;
+    outline: 'none';
+    width: 200px;
+    display: flex;
+
+}
 
 }
