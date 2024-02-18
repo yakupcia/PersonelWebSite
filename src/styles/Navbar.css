@@ -72,13 +72,13 @@
 
   .RightTitle{
     flex-direction: column;
-    display: flex;
     text-align: center;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 0px;
   }
   .title{
     text-align: center;
-    background-color: tomato;
     justify-content: center;
     margin-top: 10px;
     margin-left: 0px;
@@ -88,7 +88,6 @@
     font-size: 50px;
   }
   .toggleButton button {
-    margin-right: 0px;
     background-color: transparent;
     border: none;
     color: black;
@@ -98,7 +97,6 @@
 
 @media only screen and (max-width: 900px) {
   .navbar a {
-    width: 70px;
   }
 }
 

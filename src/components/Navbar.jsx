@@ -29,7 +29,7 @@ function Navbar() {
           <Link to="/home">YAKUP KOK</Link>
         </div>
         <div className='RightTitle'>
-          <Link to="/home">Home</Link>
+          <a href="home">Home</a>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
         </div>
