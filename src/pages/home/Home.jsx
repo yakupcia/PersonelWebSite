@@ -20,7 +20,7 @@ function Home() {
       </div> 
       <div className='preview'>
         <h1> <span>I'm Yakup KOK!</span></h1>
-        <p>I'm a focused on creating creative and innovative solutions</p>
+        <p>I'm focused on creating creative and innovative solutions</p>
         <p> I'm delighted to have you here!</p>
         <Link to='/about' className='button' >
           More About Me <span className='nav_icon'>
