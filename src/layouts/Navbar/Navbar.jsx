@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 import { Link, useLocation } from 'react-router-dom'
-import '../styles/Navbar.css'
+import './Navbar.css'
+
 
 import ReorderIcon from '@mui/icons-material/Reorder';
 

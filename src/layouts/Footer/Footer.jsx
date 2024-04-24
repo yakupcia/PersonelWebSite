@@ -1,20 +1,16 @@
+//React
 import React from 'react'
-import '../styles/Footer.css'
+
+//3th party
 import { Link } from 'react-router-dom'
 
+//styles
+import './Footer.css'
+
 //icon 
-import { FaMedium } from "react-icons/fa6";
-import { BsStackOverflow } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-
-
-
-
-
-
+import { FaMedium } from "react-icons/fa6"
+import { BsStackOverflow } from "react-icons/bs"
+import { FaGithub, FaLinkedin, FaInstagramSquare, FaTwitter } from "react-icons/fa"
 
 function Footer() {
   return (

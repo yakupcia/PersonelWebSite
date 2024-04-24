@@ -1,21 +1,18 @@
+//React
 import React from 'react';
+
+//3th party
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
- 
 
 //pages
-import Home from './pages/home/Home';
-import Contact from './pages/contact/Contact';
-import About from './pages/about/About';
+import { Home, Contact, About } from '../pages';
+
 //components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import{AnimCursor} from '../components';
+import {Navbar, Footer} from '../layouts'
 
 //styles
-import './App.css'
-
-import AnimCursor from './components/AnimCursor';
-
-
+import '../styles/GlobalStyles.css';
 
 function App() {
   return (

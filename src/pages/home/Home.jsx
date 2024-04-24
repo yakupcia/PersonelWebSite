@@ -1,11 +1,13 @@
 import React from 'react';
-import '../home/Home.css'
-import myImage from '../../photos/IMG_7358.jpg'
+
+//3th party 
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-
 import { FaArrowRight } from "react-icons/fa";
 
+//styles and images 
+import './Home.css';
+import myImage from '../../assets/images/IMG_7358.jpg'
 
 
 function Home() {

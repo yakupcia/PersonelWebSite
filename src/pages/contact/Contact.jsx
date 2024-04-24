@@ -1,12 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import { IoMdMail } from "react-icons/io";
-
-import { IoIosSend } from "react-icons/io";
+import { IoMdMail, IoIosSend  } from "react-icons/io";
 
 // css
-import '../contact/Contact.css'
+import './Contact.css'
 
 
 function Contact() {
